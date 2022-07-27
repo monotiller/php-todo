@@ -29,7 +29,7 @@ pipeline {
 
     stage('Execute Unit Tests') {
       steps {
-             sh '/usr/bin/php'
+             sh './vendor/bin/phpunit'
       } 
     }
 
